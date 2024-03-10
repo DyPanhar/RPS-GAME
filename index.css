@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.2rem
+}
+
+.inner-container div{
+    font-size: 5rem;
+    background-color: aqua;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+h2{
+    margin: 10px;
+}
+
+#displayResult{
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+
+#displayPlayer , #displayComputer{
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.greenText , #playerScore{
+    color: hsl(120, 100%, 25%);
+}
+
+.redText , #computerScore{
+    color:hsla(0, 100%, 50%, 0.852);
+}
